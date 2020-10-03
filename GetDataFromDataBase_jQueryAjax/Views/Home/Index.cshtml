@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<br /><br />
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"> Users List</h3>
+            </div>
+            <div class="panel-body">
+                <a href="@Url.Action("Create","Home")" class="btn btn-success">Add New</a>
+                <div id="printbar" class="pull-right"></div>
+                <br />
+                <br />
+                <div class="tableheader">
+                    <table id="tblData" class="table table-condensed table-hover table-striped">
+                        <thead style="background-color:#2fa4e7;color:white">
+                            <tr>
+                                <th class="permanent">Id</th>
+                                <th class="permanent">Role Id</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th class="permanent">Password</th>
+                                <th>Contact</th>
+                                <th>Address</th>
+                                <th class="permanent">Action</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    
+</script>
+
